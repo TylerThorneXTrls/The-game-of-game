@@ -1,0 +1,163 @@
+*{
+    margin:auto;
+    
+
+}
+
+body{
+    background-color:rgb(146, 196, 161);
+    display:flex;
+    flex-direction: row;
+    width:100vw;
+    height:100vh;
+    
+}
+.sidebar{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    
+
+
+    
+}
+#left{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#shop {
+    border: 2px solid, greenyellow;
+    width:100%;
+    height:auto;
+    background-color: burlywood;
+    width:99%;
+    height:30%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.overdisplay{
+
+    margin:auto;
+    background-color: rgb(132, 81, 30);
+    width:50%;
+    height:50%;
+    border:2px red solid ;
+    margin-top:25%;
+    display:flex;
+    flex-direction: column;
+    
+    
+
+
+}
+#button{
+    background: none;
+    border:none;
+    width:100%
+
+    
+
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    width:100%;
+    overflow-y: scroll;
+    height:50%;
+    background-color: slategrey;
+    
+}
+#item > div{
+
+    font-size: small;
+    min-width: 25%;
+    max-width: 35%;
+    color:rgb(249, 249, 235);
+    border: 2px dashed rgb(71, 71, 71);
+    box-shadow: 16px 13px 12px -15px rgba(0,0,0,0.75);
+    
+}
+#SellAll{
+    width:100%;
+    background-color: red;
+    color:white;
+}
+
+#shop > button{
+    width:auto;
+    height:auto;
+    min-height: 53.2px;
+
+
+}
+img{
+    width:60%
+}
+img:hover{
+    width:62%
+}
+#extra{
+    display: flex;
+    flex-direction: row;
+    gap:50%;
+    color:white;
+    font-size: 24px;
+    text-align: center;
+}
+#winscreen{
+    padding:20px;
+    background-color:white;
+    color:rgb(180, 180, 129);
+}
+.legendary{
+    background-color: gold;
+
+}
+.common{
+    background-color: lightgray;
+    color:whitesmoke;
+    
+    
+}
+.uncommon{
+    background-color:green;
+
+}
+.rare{
+    background-color: blue;
+}
+.epic{
+    background-color:blueviolet;
+
+} 
+
+.goalAmount{
+    color:white;
+    font-size:50px;
+}
+
+@media screen and (max-width:600px){
+    body{
+        flex-direction:column
+    }
+    #shop{
+        height:20%;
+    }
+    .sidebar{
+        gap:none
+    }
+}
+
+
+
+
